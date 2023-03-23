@@ -1,0 +1,394 @@
+body {
+	background:#3e1d09 url(../images/header.jpg) center top no-repeat;
+	background-size: cover;
+	color: #c1c1c1;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	margin:0;
+	background-attachment: scroll;
+}
+
+#page {
+	width:940px;
+	margin:0px auto;
+	padding:0px 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+
+
+#header{
+    display: flex;
+	align-items: center;
+	background-color: rgb(18 18 18 / 60%);
+	border-radius: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#header nav{
+    flex-direction: row;
+    text-align: right;
+    padding-bottom: 0px;
+	line-height: 50px;
+}
+
+#header .logo img{
+	color: rgb(38, 0, 255);
+	width: 130px;
+	margin: 0px;
+}
+
+#header .logo2 img{
+	color: rgb(38, 0, 255);
+	width: 170px;
+	margin-right: 30px;
+}
+
+#header a{
+    text-decoration: none;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(236, 88, 29);
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+}
+
+#header a:hover{
+    color: rgb(24, 7, 3);
+    background-color:  rgb(236, 87, 28);
+    border-radius: 50px;
+}
+
+
+
+/*Body*/
+#body {
+	display:inline-block;
+	margin:0;
+}
+#body p {
+	font-size: 15px;
+	line-height: 22px;
+	margin:0px;
+	padding:0px 0px 10px;
+	text-align: justify;
+	color: white;
+}
+#body a {
+	color:#ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	outline: medium none; 
+}
+
+#main {
+	float:left;
+	width:600px;
+	margin-right:20px;
+}
+#main h2 {
+	color:#ff7800;
+	margin:0px 0px 10px 0px;
+}
+#main .inicio {
+	background-color: #000000c9;
+	border:1px solid  #000000c9;
+	border-radius:6px;
+	padding:10px 10px 0px;
+	margin-bottom: 5px;
+}
+#main .inicio img {
+	margin:8px;
+	border-radius: 2px;
+}
+#main .inicio p {
+	margin:0px;
+	padding-bottom:20px;
+}
+#main .section {
+	display:inline-flex;
+	flex-direction: row;
+	padding-top:18px;
+	background-color: #000000c9;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 8px;
+	border-radius: 6px;
+	margin-left: 85px;
+	margin-bottom: 10px;
+}
+#main .section h3 {
+	color: #FF7800;
+	margin:0px 0px 8px;
+}
+#main .section ul {
+	list-style-type:none;
+	padding:0px;
+}
+#galeria, #eventos {
+	float: left;
+	width:300px;
+	overflow:hidden;
+}
+#galeria h3, #eventos h3 {
+	margin-bottom:8px;
+}
+#galeria a.more, #eventos a.more {
+	float:right;
+	color:#ffffff;
+	font-size:0.9em;
+	font-weight:normal;
+	text-decoration:none;
+}
+#galeria ul {
+	display:inline-block;
+	margin: 0px;
+	margin-right: 6px;
+}
+#galeria li {
+	float:left;
+	margin:10px 20px 6px 0px;
+}
+#galeria li img {
+	border:1px solid #cd8147;
+	border-radius: 2px;
+}
+#galeria a.more {
+	margin-right:24px;
+}
+#eventos ul {
+	margin:0px 0px 10px;
+}
+#eventos ul li {
+	font-size:0.95em;
+	border-bottom:1px dashed #ffffff;
+	padding:10px 0px;
+	text-align:justify;
+}
+#eventos ul li.last {
+	border:0px;
+}
+
+#lateral {
+	float:right;
+	width:300px;
+	margin-top: 40px;
+	background-color:#000000c9;
+	border-radius: 6px;
+	padding-left: 11px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+#lateral h3 {
+	font-weight:500;
+	width:280px;
+	margin:5px 0px 10px;
+	text-align: justify;
+}
+#lateral h2 a {
+	color:#FF7800;
+}
+#lateral h3 a {
+	color: #f7f7f7;
+	text-align: justify;
+	outline: medium none;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+/*body*/
+#body .contenido {
+	background-color: #000000c9;
+	display:inline-block;
+	min-height:870px;
+	border-radius:6px;
+	margin-bottom:20px;
+	padding:10px 19px;
+}
+#body .contenido .main {
+	float:left;
+	width:575px;
+	padding-right:15px;
+}
+#body .contenido .lateral {
+	float:right;
+	width:280px;
+	padding-left:10px;
+	margin-top: 47px;
+}
+#body .contenido .lateral h3 {
+	color: #ff7800;
+	font-weight: 500;
+	width: 260px;
+	margin:10px 0px 6px;
+}
+
+#body .contenido h1 {
+	color: #ff7800;
+	margin-bottom: 20px;
+}
+#body .contenido h2 {
+	color: #BFA58E;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#body .contenido h3 {
+	color: #ff7800;
+	font-weight: 500;
+	margin:10px 0px 6px;
+	padding:0px;
+}
+
+#body .contenido ul {
+	display:inline-block;
+	margin: 20px 0;
+	padding:0px;
+}
+
+/*Lugares*/
+#body .contenido ul.acerca li {
+	float: left;
+	list-style-type: none;
+	width: 450px;
+}
+
+/*Eventos*/
+#body .contenido ul.articles li {
+	list-style-type: none;
+	height:150px;
+	margin:0px 0px 30px;
+}
+#body .contenido ul.articles li h3 {
+	font-size: 1.15em;
+	margin-top:0px;
+}
+#body .contenido ul.articles li img {
+	float:left;
+	margin-right:20px;
+	border-radius: 2px;
+}
+
+/*Galeria*/
+#body .contenido div.galeria {
+	width:900px;
+	margin: 20px 0px;
+	overflow:hidden;
+}
+#body .contenido div.galeria ul {
+	width: 925px;
+}
+#body .contenido div.galeria ul li {
+	float: left;
+	list-style-type: none;
+	height: 355px;
+	width: 282px;
+	margin: 0px 26px 30px 0px;
+	padding: 0;
+}
+#body .contenido div.galeria ul li a img {
+	border: 1px solid #000000;
+	border-radius: 2px;
+}
+#body .contenido div.galeria ul li h4 {
+	color: #ff7800;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#body .contenido div.galeria ul li p {
+	font-size: 0.9em;
+	text-align:left;
+}
+
+/*Footer*/
+#footer {
+	background-color: #dfc221;
+	height: 60px;
+	width:100%;
+	line-height: 60px;
+	margin:0;
+	position:absolute;
+	left:0px;
+}
+#footer div {
+	color: #0b130b;
+	font-size: 0.8em;
+	width: 940px;
+	margin: 0 auto;
+	padding:0px 10px;
+}
+
+#footer  a {
+	color: #14140a;
+	text-decoration: none;
+	outline: medium none; 
+}
+#footer a:hover {
+	color: #ffffff;
+}
+#footer ul {
+	float:left;
+	height:60px;
+	width:210px;
+	margin:0px;
+	padding:0px;
+}
+#footer ul li {
+	float: left;
+	height: 30px;
+	list-style-type: none;
+	margin-right: 20px;
+	padding:15px 0px;
+}
+#footer ul li i.facebook{
+	background:url(/images/insta.png) no-repeat;
+	display:block;
+	height:30px;
+	line-height:30px;
+}
+
+#footer ul li i.facebook {
+	background-position:0 0;
+	width:57px;
+	padding-left:35px;
+}
+
+#footer ul li i.instagram{
+	background:url(/images/insta.png) no-repeat;
+	display:block;
+	height:30px;
+	line-height:30px;
+}
+
+#footer ul li i.instagram {
+	background-position:0 -40px;
+	width:37px;
+	padding-left:40px;
+}
+#footer span {
+	float:right;
+	display:block;
+	line-height: 60px;
+	width:400px;
+}
+
+
+h1 {
+	color: green;
+}
+
+.facebook {
+	background: #3b5998;
+	color: rgb(14, 11, 11);
+}
+
+.instagram {
+	background: #3b5998;
+	color: rgb(10, 8, 8);
+}
